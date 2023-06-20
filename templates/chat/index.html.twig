@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Chat with {{ chat_name }}{% endblock %}
+
+{% block body %}
+    <div class="chat-container">
+        <div id="chat-window" class="chat-window">
+            <div id="loading-overlay" class="loading-overlay" style="display: none;">
+                <div id="loading" class="loading-spinner"></div>
+            </div>
+            <!-- Chat messages will be appended here by JavaScript -->
+        </div>
+        <div class="chat-input-container">
+            <input id="chat-input" class="chat-input" type="text" placeholder="Send a message">
+            <button id="send-button" class="send-button">Submit</button>
+        </div>
+    </div>
+{% endblock %}
