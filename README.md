@@ -2,8 +2,6 @@
 
 This project is a simple chat which uses the GPT 3.5 Turbo LLM via the OpenAI API. It is mainly used to gain experience with the Open API and the PHP SDK __@orhanerday/open-ai__. Additionally, the chat can be set to specific roles via the env variables. By default, the chat has the role of a Symfony Developer.
 
-<hr>
-
 ## Setup
 
 #### Run composer
@@ -32,8 +30,6 @@ symfony proxy:domain:attach symfonygpt
 ```sh
 symfony server:start -d
 ```
-
-<hr>
 
 ## Chat Fine Tuning
 
