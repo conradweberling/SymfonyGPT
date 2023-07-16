@@ -31,7 +31,7 @@ symfony proxy:domain:attach symfonygpt
 symfony server:start -d
 ```
 
-## Chat Fine Tuning
+## Prompting
 
 You can also fine tune the chat yourself and therefore assign a new role. Just copy the variables `CHAT_NAME`,  `CHAT_SYSTEM_PROMPT` and  `CHAT_USER_SUFFIX_PROMPT` from the *.env* into your *.env.local* and adjust them as desired. Please note that the  `CHAT_USER_SUFFIX_PROMPT` is appended to every user message and consumes accordingly many tokens.
 
